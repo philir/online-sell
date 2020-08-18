@@ -1,0 +1,53 @@
+{
+  "errno": 0,
+  "data": {
+    "name": "奋斗小馆",
+    "description": "职业专送",
+    "deliveryTime": 38,
+    "score": 4.2,
+    "serviceScore": 4.1,
+    "foodScore": 4.3,
+    "rankRate": 69.2,
+    "minPrice": 0,
+    "deliveryPrice": 0,
+    "ratingCount": 24,
+    "sellCount": 90,
+    "bulletin": "奋斗小馆其烹饪的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师研发。坚守纯天然、0添加的良心品质深得消费者青睐。",
+    "supports": [
+      {
+        "type": 0,
+        "description": "在线支付满15减2"
+      },
+      {
+        "type": 1,
+        "description": "VC无限橙果汁全场8折"
+      },
+      {
+        "type": 2,
+        "description": "单人精彩套餐"
+      },
+      {
+        "type": 3,
+        "description": "该商家支持发票,请下单写好发票抬头"
+      },
+      {
+        "type": 4,
+        "description": "已加入“外卖保”计划,食品安全保障"
+      }
+    ],
+    "avatar": "http://philir.natapp1.cc/sell/image/showImage/fendou.jpg",
+    "pics": [
+      "http://philir.natapp1.cc/sell/image/showImage/shijing1.jpg",
+      "http://philir.natapp1.cc/sell/image/showImage/shijing2.jpg",
+      "http://philir.natapp1.cc/sell/image/showImage/shijing3.jpg",
+      "http://philir.natapp1.cc/sell/image/showImage/shijing4.jpg",
+      "http://philir.natapp1.cc/sell/image/showImage/shijing5.jpg"
+    ],
+    "infos": [
+      "该商家支持发票,请下单写好发票抬头",
+      "品类:其他菜系,包子粥店",
+      "湛江市霞山区人民大道南城市广场4楼 位于城市广场 天润新食代美食季4层",
+      "营业时间:10:00-20:30"
+    ]
+  }
+}

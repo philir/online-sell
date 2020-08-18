@@ -1,0 +1,59 @@
+spring:
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     username: root
+     password: czx7215201314
+     url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&serverTimezone=GMT%2B8
+   jpa:
+     show-sql: true
+   redis:
+     host: 192.168.0.106
+     port: 6379
+   jackson:
+     default-property-inclusion: non_null
+   freemarker:
+     suffix: .ftl
+server:
+  servlet:
+    context-path: /sell
+    multipart:
+        max-file-size: 50MB
+        max-request-size: 50MB
+
+pattern:
+  console: "%d-%msg%n"
+  #path: /var/log/tomcat/
+  path: D:\var\log\tomcat\
+  #file: /var/log/tomcat/sell
+  #level:
+   # com.ocean.LoggerTest: debug
+
+wechat:
+   #公众号，授权
+   mpAppIdTest: wxf53877235a3966cc   #测试号授权
+   mpAppId: wxd898fcb01713c658    #测试支付
+   mpAppSecret: 450ae31cd489f1dc76caa68bd941ae1d
+   openAppId:
+   openAppSecret:
+   #支付/商户号
+   mchId: 1483469312
+   mchKey: 098F6BCD4621D373CADE4E832627B4F6
+   #发起支付不需要证书
+   keyPath: G:\develop\h5.p12
+   notifyUrl: http://philir.natapp1.cc/sell/pay/notify
+   #消息模板Id
+   templateId:
+      orderStatus: EeU_UjU0SzO04E3FrLqQeLvbHYHh1UUihAYWgShN2IY
+
+projectUrl:
+   wechatMpAuthorize: http://philir.natapp1.cc
+   wechatOpenAuthorize: http://philir.natapp1.cc
+   sell: http://philir.natapp1.cc
+logging:
+   level:
+      com.ocean.sell.dataobject.mapper: trace
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+image:
+  uploadFolder: D:/graduationImage/
